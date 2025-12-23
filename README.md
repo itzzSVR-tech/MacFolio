@@ -13,12 +13,18 @@ MacFolio is designed to be a responsive and interactive portfolio application. I
 *   **React**: UI built with React.
 *   **Vite**: Fast development server and build tool.
 *   **ESLint**: Integrated code linting.
+*   **TailwindCSS**: Utility-first CSS framework.
+*   **GSAP**: JavaScript animation library.
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have Node.js installed on your machine.
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
 ### Installation
 
