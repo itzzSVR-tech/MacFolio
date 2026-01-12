@@ -264,10 +264,51 @@ const WORK_LOCATION = {
                 },
             ],
         },
-
         // ▶ Project 2
         {
             id: 6,
+            name: "BagIt",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-10 left-80",
+            windowPosition: "top-[33vh] left-7",
+            children: [
+                {
+                    id: 1,
+                    name: "bagit.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 left-10",
+                    description: [
+                        "A Full-Stack Product Store (PERN Stack) with End-to-End API (PostgreSQL and Express) ↔ Frontend Integration (React and Daisy UI).",
+                        "The application focuses on performance, scalability, and user experience, offering real-time updates, secure authentication, cloud-based media handling, and analytics-driven insights to improve engagement and conversions.",
+                        "Whether you are building an e-commerce prototype or a production-ready shopping platform, BagIt provides a strong and extensible foundation.",
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "bagit.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://github.com/itzzSVR-tech/BagIt",
+                    position: "top-10 right-20",
+                },
+                {
+                    id: 4,
+                    name: "bagit.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 right-80",
+                    imageUrl: "/images/project-4.png",
+                },
+            ],
+        },
+        // ▶ Project 3
+        {
+            id: 7,
             name: "Phantom",
             icon: "/images/folder.png",
             kind: "folder",
@@ -308,10 +349,9 @@ const WORK_LOCATION = {
                 },
             ],
         },
-
-        // ▶ Project 3
+        // ▶ Project 4
         {
-            id: 7,
+            id: 8,
             name: "GTA-VI",
             icon: "/images/folder.png",
             kind: "folder",
