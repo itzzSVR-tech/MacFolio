@@ -270,7 +270,7 @@ const WORK_LOCATION = {
             name: "BagIt",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 left-80",
+            position: "top-52 right-80",
             windowPosition: "top-[33vh] left-7",
             children: [
                 {
@@ -312,7 +312,7 @@ const WORK_LOCATION = {
             name: "Phantom",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 right-80",
+            position: "top-10 left-80",
             windowPosition: "top-[20vh] left-7",
             children: [
                 {
@@ -355,7 +355,7 @@ const WORK_LOCATION = {
             name: "GTA-VI",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-80",
+            position: "top-52 left-80",
             windowPosition: "top-[33vh] left-7",
             children: [
                 {
