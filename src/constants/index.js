@@ -224,11 +224,54 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Titan CLI",
+            name: "Vectra",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
             windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            children: [
+                {
+                    id: 1,
+                    name: "Vectra Project.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 right-10",
+                    description: [
+                        "Vectra is a full-stack web application designed to help professionals navigate their career transitions.",
+                        "Users complete an onboarding process, receive an AI-generated 12-month plan tailored to their goals, and track progress through monthly themes and actionable tasks.",
+                        "The platform features an AI assistant named 'Jake' who provides contextual guidance based on the user's current progress and selected month.",
+                        "The application is built with Next.js, TypeScript, and Tailwind CSS, and uses MongoDB for database and Clerk for authentication.",
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "vectra.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://vectra-peach.vercel.app/",
+                    position: "top-20 left-20",
+                },
+                {
+                    id: 4,
+                    name: "vectra.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 left-80",
+                    imageUrl: "/images/project-4.png",
+                },
+            ],
+        },
+        // ▶ Project 2
+        {
+            id: 6,
+            name: "Titan CLI",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-10 left-65",
+            windowPosition: "top-[20vh] left-7",
             children: [
                 {
                     id: 1,
@@ -264,14 +307,14 @@ const WORK_LOCATION = {
                 },
             ],
         },
-        // ▶ Project 2
+        // ▶ Project 3
         {
-            id: 6,
+            id: 7,
             name: "BagIt",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 left-5",
-            windowPosition: "top-[33vh] left-7",
+            position: "top-52 left-17",
+            windowPosition: "top-[35vh] left-5",
             children: [
                 {
                     id: 1,
@@ -306,14 +349,14 @@ const WORK_LOCATION = {
                 },
             ],
         },
-        // ▶ Project 3
+        // ▶ Project 4
         {
-            id: 7,
+            id: 8,
             name: "Phantom",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-80",
-            windowPosition: "top-[20vh] left-7",
+            position: "top-52 left-75",
+            windowPosition: "top-[50vh] left-7",
             children: [
                 {
                     id: 1,

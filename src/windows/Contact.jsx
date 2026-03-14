@@ -12,7 +12,7 @@ const Contact = () => {
             </div>
 
             <div className="p-5 space-y-5">
-                <img src="/images/SVR.jpeg" alt="SVR" className="w-20 rounded-full" />
+                <img src="/images/me.png" alt="SVR" className="w-24 rounded-full" />
 
                 <h3>Connect With Me</h3>
                 <p>Got any ideas? A bug to squash? Or Just wanna talk tech? Sign me up!</p>
