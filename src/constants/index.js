@@ -224,11 +224,53 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Vectra",
+            name: "AuraView",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            windowPosition: "top-[5vh] left-7", // optional: Finder window position
+            children: [
+                {
+                    id: 1,
+                    name: "AuraView Project.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 right-10",
+                    description: [
+                        "AuraView is AI-powered architectural visualization SaaS built with React, TypeScript, and Puter.",
+                        "Use AI models from Claude to Gemini to transform 2D floor plans into photorealistic 3D renders with permanent hosting and persistent metadata",
+                        "This project features 2D-to-3D photorealistic rendering, serverless workers, high-performance KV storage, and a global community feed.",
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "auraview.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://auraview-nine.vercel.app/",
+                    position: "top-20 left-20",
+                },
+                {
+                    id: 4,
+                    name: "auraview.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 left-80",
+                    imageUrl: "/images/project-5.png",
+                },
+            ],
+        },
+        // ▶ Project 2
+        {
+            id: 6,
+            name: "Vectra",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-25 left-95",
+            windowPosition: "top-[20vh] left-5", // optional: Finder window position
             children: [
                 {
                     id: 1,
@@ -264,14 +306,14 @@ const WORK_LOCATION = {
                 },
             ],
         },
-        // ▶ Project 2
+        // ▶ Project 3
         {
-            id: 6,
+            id: 7,
             name: "Titan CLI",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-65",
-            windowPosition: "top-[20vh] left-7",
+            windowPosition: "top-[35vh] left-7",
             children: [
                 {
                     id: 1,
@@ -307,14 +349,14 @@ const WORK_LOCATION = {
                 },
             ],
         },
-        // ▶ Project 3
+        // ▶ Project 4
         {
-            id: 7,
+            id: 8,
             name: "BagIt",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 left-17",
-            windowPosition: "top-[35vh] left-5",
+            windowPosition: "top-[50vh] left-5",
             children: [
                 {
                     id: 1,
@@ -349,14 +391,14 @@ const WORK_LOCATION = {
                 },
             ],
         },
-        // ▶ Project 4
+        // ▶ Project 5
         {
-            id: 8,
+            id: 9,
             name: "Phantom",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 left-75",
-            windowPosition: "top-[50vh] left-7",
+            windowPosition: "top-[65vh] left-7",
             children: [
                 {
                     id: 1,
