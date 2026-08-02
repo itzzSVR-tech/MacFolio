@@ -77,25 +77,32 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Dec 21, 2025",
-        title: "Coding, Caffeine, and Commits: A New Chapter",
+        date: "Jul 31, 2026",
+        title: "The Silent Squeeze 🤫: How the AI Infrastructure Boom is Breaking the Gaming Industry",
         image: "/images/blog1.png",
-        link: "https://itzzsvr.substack.com/p/coding-caffeine-and-commits-a-new",
+        link: "https://dev.to/itzzsvr_tech74/the-silent-squeeze-how-the-ai-infrastructure-boom-is-breaking-the-gaming-industry-1o4h",
     },
     {
         id: 2,
-        date: "Dec 22, 2025",
-        title: "Understanding CSS Grid vs. Flexbox: When to Use Which?",
+        date: "Jun 22, 2026",
+        title: "Syntax is cheap, logic is hard: Why Linus Torvalds view of AI proves 'vibe coding' is a dead end.",
         image: "/images/blog2.png",
-        link: "https://itzzsvr.substack.com/p/understanding-css-grid-vs-flexbox",
+        link: "https://dev.to/itzzsvr_tech74/linus-torvalds-is-right-ai-is-a-compiler-not-a-coder-and-why-vibe-coding-wont-survive-41eb",
     },
     {
         id: 3,
-        date: "Dec 23, 2025",
-        title: "MVC Architecture Explained with Real-World Examples",
+        date: "Jun 21, 2026",
+        title: "Why I Switched from Cursor to Antigravity 🖥",
         image: "/images/blog3.png",
-        link: "https://itzzsvr.substack.com/p/mvc-architecture-explained-with-real",
+        link: "https://dev.to/itzzsvr_tech74/why-i-switched-from-cursor-to-antigravity-400m",
     },
+    {
+        id: 4,
+        date: "Dec 21, 2025",
+        title: "Coding, Caffeine, and Commits: A New Chapter",
+        image: "/images/blog4.png",
+        link: "https://itzzsvr.substack.com/p/coding-caffeine-and-commits-a-new",
+    }
 ];
 
 const techStack = [
@@ -135,6 +142,13 @@ const socials = [
     },
     {
         id: 2,
+        text: "Dev.to",
+        icon: "/icons/devto.svg",
+        bg: "#000000",
+        link: "https://dev.to/itzzsvr_tech74",
+    },
+    {
+        id: 3,
         text: "SubStack",
         icon: "/icons/substack.svg",
         bg: "#2C9C02",
@@ -309,7 +323,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Titan CLI",
+            name: "PokéArena",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-65",
@@ -317,25 +331,25 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Titan Project.txt",
+                    name: "PokéArena Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The `Titan` is an AI Agent CLI with AI Chat, Web Search, Tool Calling & Dedicated Agent Mode",
-                        "Whether you're engaging in seamless chat conversations, leveraging powerful integrated tools, or activating autonomous agent mode for complex tasks, TitanCLI is your command-center companion built for the future.",
-                        "Built for developers and tech enthusiasts alike, it combines cutting-edge AI capabilities with a sleek, intuitive interface to bring your ideas to life faster and smarter than ever before.",
-                        "Step into the future of AI-driven command line power with TitanCLI.",
+                        "PokéArena is a Pokémon-themed multiplayer game built with Next.js, TypeScript, and Tailwind CSS.",
+                        "Browse through a comprehensive list of Pokémon fetched from the PokeAPI",
+                        "Select two Pokémon to compare their stats and analyze battle potential",
+                        "Optimized for desktop, tablet, and mobile devices.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "titan.com",
+                    name: "pokearena.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://github.com/itzzSVR-tech/TitanCLI",
+                    href: "https://github.com/itzzSVR-tech/PokeArena",
                     position: "top-10 right-20",
                 },
                 {
